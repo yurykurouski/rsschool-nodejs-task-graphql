@@ -1,7 +1,7 @@
 import { GraphQLEnumType } from "graphql";
 
 
-export enum MemberTypeId {
+export enum EMemberTypeId {
   BASIC = 'basic',
   BUSINESS = 'business',
 }
@@ -9,7 +9,7 @@ export enum MemberTypeId {
 export const MemberIdTypeEnum = new GraphQLEnumType({
   name: 'MemberTypeId',
   values: {
-    basic: { value: MemberTypeId.BASIC },
-    business: { value: MemberTypeId.BUSINESS },
+    basic: { value: EMemberTypeId.BASIC },
+    business: { value: EMemberTypeId.BUSINESS },
   }
 });
