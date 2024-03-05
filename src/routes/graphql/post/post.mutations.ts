@@ -8,7 +8,7 @@ import {
 import { PostType } from "./post.type.js"
 import { UUIDType } from "../types/uuid.js";
 import { IContext } from "../types/context.js";
-import { TPostDTO } from "../types/index.js";
+import { TPostDTO } from "../types/dto.js";
 
 
 const postInputFields = {

@@ -3,7 +3,7 @@ import { ProfileType } from "./profile.type.js";
 import { MemberIdTypeEnum } from "../member/member-id.type.js";
 import { UUIDType } from "../types/uuid.js";
 import { IContext } from "../types/context.js";
-import { TProfileDTO } from "../types/index.js";
+import { TProfileDTO } from "../types/dto.js";
 
 
 const profileInputFields = {
